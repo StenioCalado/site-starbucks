@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo.png">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<div class="circulo"></div>
+<body>
+    <img class="logo" src="./img/logo.png">
+
+    <div class="caixa-conteudo">
+
+        <div class="caixa-texto">
+            <h2>It's not just coffee
+                It's <span>Starbucks</span>
+            </h2>
+
+            <p>É só um breve momento – apenas uma mão passando um copo por sobre o balcão para outra mão estendida.
+
+                Mas é uma conexão.
+                
+                Tudo o que fazemos procura respeitar essa conexão – desde nosso compromisso com o café de melhor qualidade do mundo até a forma como nós interagimos com nossos clientes e nossas comunidades para conduzir nosso negócio de modo responsável.
+                
+                Desde o princípio, há mais de cinquenta anos, quando éramos uma única loja, todo lugar a que fomos, todo lugar que tocamos, nós tentamos deixar um pouco melhor do que encontramos.
+            </p>
+
+            <button onclick="mandarSite()" class="botao-site">Saiba mais</button>
+
+        </div>
+        <div class="caixa-imagem">
+            <img src="./img/img1.png" class="copo">
+        </div>
+    </div>
+
+    <div class="caixa-menu">
+        <img src="./img/thumb1.png" class="botao-menu" onclick="trocarACor('#017143');  trocarImagem('./img/img1.png')">
+        <img src="./img/thumb2.png" class="botao-menu" onclick="trocarACor('#eb7495');  trocarImagem('./img/img2.png')">
+        <img src="./img/thumb3.png" class="botao-menu" onclick="trocarACor('#d752b1');  trocarImagem('./img/img3.png')">
+    </div>
+    
+</body>
+
+<script src="scripts.js"></script>
+
+
+</html>
